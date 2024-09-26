@@ -6,9 +6,14 @@ Algoritmo MetodoBurbuja
 	Dimension array2[n]
 	
 	Para contadorArray<-1 Hasta n Con Paso 1 Hacer
-        array[n]<- Azar(99)+1; // Aleatorio. 1 al 100
+        array[contadorArray]<- Azar(99)+1
     Fin Para
+	Escribir ""
 	
+	Para contadorArray<-1 Hasta n Con Paso 1 Hacer
+		Escribir sin saltar array[contadorArray] " "
+	Fin Para
+
 	Para contador2<-1 Hasta n Con Paso 1 Hacer
 		
 		Para cont<-1 Hasta n-1 Con Paso 1 Hacer
