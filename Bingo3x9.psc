@@ -1,5 +1,6 @@
 Algoritmo Bingo3x9
 	ESCRIBIR "BIENVENIDO AL BINGO" 
+		Definir Aciertos Como Caracter
 		Definir Matriz como entero 
 		Dimension Matriz(3,9) 
 		Para contadorx=1 hasta 3 Hacer
@@ -17,19 +18,21 @@ Algoritmo Bingo3x9
 		Para contadorx=1 hasta 3 Hacer
 			para contadory=1 hasta 9 Hacer
 				Si Matriz(contadorx,contadory)=numusuario  Entonces
-					Acierto=True
+					Acierto="True"
 					contadorx=3
 					contadory=9
+				SiNo
+					Aciertos="False"
 				FinSi
 			FinPara 
 		FinPara 
-		Si Acierto=True Entonces
+		Si Acierto="True" Entonces
 			Escribir "El número que has introducido está en el bingo"
 			Escribir "Fin del juego, lo has hecho bien"
 		SiNo
 			Escribir"Vuelve a intentarlo"
 		FinSi
-		Hasta Que Acierto=True
+		Hasta Que Acierto="True"
 	
 	
 FinAlgoritmo
