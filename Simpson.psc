@@ -21,7 +21,7 @@ Algoritmo Simpson
 	
 	
 	
-	Para ContadorBart=1 Hasta 1 Con Paso 1 Hacer	//Establecer cordenadas aleatorias de Homer
+	Para ContadorBart=1 Hasta 1 Con Paso 1 Hacer	//Establecer cordenadas aleatorias de Bart
 		BartX = azar(4)+1
 		BartY = azar(4)+1
 		Si matriz[BartX,BartY] = "Vacio" Entonces		//Si la casilla que ha salido está ocupada no se aplica y repetir proceso
